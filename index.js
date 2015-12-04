@@ -9,7 +9,7 @@ module.exports = function (obj, sub) {
 
   var current = obj
   var prop
-  for (var i = 0;i < sub.length;i++) {
+  for (var i = 0; i < sub.length; i++) {
     prop = sub[i]
     if (current[prop] === null || current[prop] === undefined) return false
     current = current[prop]
