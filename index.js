@@ -1,7 +1,5 @@
 module.exports = function (obj, sub) {
-  if (sub) {
-    sub = sub.split('.')
-  }
+  if (sub) sub = sub.split('.')
 
   if (obj === null || obj === undefined) return false
 
