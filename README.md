@@ -16,6 +16,7 @@ const a = {
 exists(a) // true
 exists(a, 'b') // true
 exists(a, 'c') // false
+exists(a, 'c.a') // false
 exists(a, 'b.c') // true
 exists(a, 'b.d') // false
 exists(a, 'b.e') // false
