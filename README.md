@@ -1,5 +1,7 @@
 # deep-exists
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/SEAPUNK/deep-exists.svg)](https://greenkeeper.io/)
+
 Easy checking for existence. Returns true if value is not `null` or `undefined`.
 
 ```javascript
